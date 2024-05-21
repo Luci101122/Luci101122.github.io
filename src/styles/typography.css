@@ -73,6 +73,11 @@
   --font-size-xxxl: clamp(54.93px, 3.32vw + 41.64px, 84.17px);
 }
 
+
+.centered {
+	text-align: center;
+}
+
 html,
 body {
 	line-height: 1.5;
@@ -121,9 +126,7 @@ h4,
 h5,
 h6,
 
-.centered {
-	text-align: center;
-}
+
 
 p {
 	margin: 0 0 1rem 0;
