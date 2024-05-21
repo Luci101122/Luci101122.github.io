@@ -37,10 +37,10 @@ const { footerSocials, footerLists, copyrightName, background, color, showLittle
       {
         footerLists.map((list) => (
           <div>
-            <p><strong>{list.title}</strong></p>
+            <p class = "centered"><strong>{list.title}</strong></p>
             <ul class="footer-link__list">
               {list.items.map((item) => (
-                <li>
+                <li class = "centered">
                   <a href={item.slug}>{item.title}</a>
                 </li>
               ))}
@@ -50,8 +50,7 @@ const { footerSocials, footerLists, copyrightName, background, color, showLittle
       }
     </div>
     <div class="footer-copyright__container">
-      {showLittleSticksPlug && <LittleSticksPlug/>}
-      <p>Copyright &copy; {new Date().getFullYear()} {copyrightName}</p>
+      <p>Copyright &copy; 2024 Ralph Angelo Tan</p>
     </div>
 
   </Container>
