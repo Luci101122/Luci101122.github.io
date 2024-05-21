@@ -23,23 +23,6 @@ export const footerSocials = [
 
 export const footerLists = [
 	{
-		title: 'Landing Pages',
-		items: [
-			{
-				title: 'Landing Page 1',
-				slug: '/landing-pages/landing-1',
-			},
-			{
-				title: 'Landing Page 2',
-				slug: '/landing-pages/landing-2',
-			},
-      // {
-			// 	title: 'Landing Page 3',
-			// 	slug: '/landing-pages/landing-3',
-			// },
-		],
-	},
-	{
 		title: 'Company',
 		items: [
 			{
@@ -47,34 +30,22 @@ export const footerLists = [
 				slug: '/company/about',
 			},
 			{
-				title: 'Blog',
+				title: 'Services',
 				slug: '/blog',
-			},
-			{
-				title: 'Contact',
-				slug: '/company/contact',
-			},
+			}
 		],
 	},
 	{
-		title: 'Theme',
+		title: 'Contact Us',
 		items: [
 			{
-				title: 'Get Started',
-				slug: '/theme/get-started',
+				title: 'Whatsapp',
+				slug: '/theme/style-guide', //whats app redirect
 			},
 			{
-				title: 'Style Guide',
-				slug: '/theme/style-guide',
-			},
-      {
-        title: 'Theme Setup',
-        slug: '/theme/theme-setup',
-      },
-      {
-        title: 'Customizing Odyssey',
-        slug: '/theme/customizing-odyssey',
-      }
+				title: 'Email',
+				slug: '/theme/style-guide', //contact page redirect
+			}
 		],
 	},
 ];
